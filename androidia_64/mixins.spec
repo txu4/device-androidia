@@ -14,6 +14,7 @@ ethernet: dhcp
 debugfs: default
 storage: default
 display-density: default
+usb-gadget: g_ffs
 adb_net: true
 kernel: android_ia
 bluetooth: btusb
