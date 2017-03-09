@@ -10,7 +10,7 @@ KERNEL_CROSS_COMPILE_WRAPPER := x86_64-linux-android-
 ##############################################################
 # start kernel in permissive mode, this way we don't
 # need 'setenforce 0' from init.rc files
-BOARD_KERNEL_CMDLINE += enforcing=0 androidboot.selinux=permissive
+BOARD_KERNEL_CMDLINE += enforcing=0 androidboot.selinux=permissive console=ttyS2,115200n8
 ##############################################################
 # Source: device/intel/mixins/groups/sepolicy/permissive/BoardConfig.mk
 ##############################################################
