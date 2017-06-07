@@ -208,7 +208,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     gralloc.android_ia
 
-
+# Memtrack HAL
+PRODUCT_PACKAGES += \
+    memtrack.android_ia
 
 # Mesa
 PRODUCT_COPY_FILES += \
